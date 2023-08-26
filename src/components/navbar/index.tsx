@@ -9,7 +9,6 @@ import { Icons } from "../icons";
 
 const Navbar = async () => {
   const session = await getAuthSession();
-
   return (
     <header className="sticky top-0 supports-backdrop-blur:bg-background/60 inset-x-0 w-full z-50 border-b bg-background/95 backdrop-blur">
       <nav className="container px-[16px] md:px-[2rem] max-w-7xl w-full h-14 mx-auto flex items-center ">
